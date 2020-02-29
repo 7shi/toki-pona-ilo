@@ -20,7 +20,7 @@ var tokiKana = convKana(
       m: "マ メ ミ モ ム", j: "ヤ イェ イィ ヨ ユ", l: "ラ レ リ ロ ル",
       w: "ワ ウェ ウィ ウォ ウゥ" });
 
-      function tokiToKana(src) {
+function tokiToKana(src) {
     let ret = "";
     for (let i = 0; i < src.length; ++i) {
         let s2 = tokiKana[src.substr(i, 2)];
